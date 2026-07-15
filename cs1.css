@@ -1,0 +1,311 @@
+
+
+body{
+    font-family:'Poppins',sans-serif;
+}
+
+.hero{
+    position:relative;
+    width:100%;
+    height:100vh;
+    background:url(pine.jpg) center center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.55);
+}
+
+.navbar{
+    position:relative;
+    z-index:2;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:35px 70px;
+}
+
+.logo{
+    color:#fff;
+    font-size:42px;
+    font-family:'Playfair Display',serif;
+    font-weight:700;
+}
+
+
+
+
+.nav-right{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+.social-icons{
+    display:flex;
+    gap:18px;
+}
+
+.social-icons a{
+    color:#fff;
+    font-size:16px;
+}
+
+.btn{
+    color:#fff;
+    text-decoration:none;
+    border:2px solid #fff;
+    padding:14px 28px;
+    transition:.3s;
+    font-weight:600;
+}
+
+.btn:hover{
+    background:#fff;
+    color:#000;
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-content span{
+    color:#fff;
+    letter-spacing:4px;
+    font-size:18px;
+    margin-bottom:25px;
+}
+
+.hero-content h1{
+    color:#fff;
+    font-size:82px;
+    font-style: italic;
+    font-weight:700;
+}
+
+.hero-content em{
+    font-style:italic;
+    font-weight:400;
+}
+
+
+
+
+
+
+
+    .hero-content h1 {
+        font-size: 60px;
+    }
+
+    .hero-content span {
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+
+
+
+
+
+
+    .hero-content h1 {
+        font-size: 42px;
+    }
+
+    .hero-content span {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+table{
+    
+    width: 100%;
+    height: 50%;
+}
+th,td{
+    border: 1px solid brown;
+    padding: 10px 10px;
+}
+tr:nth-child(odd){
+    background-color: rgb(199, 215, 245);
+}
+.content {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.content h2 {
+    flex: 1;
+    margin: 0;
+    margin-left: 10%;
+    font-style: italic;
+}
+
+.content p {
+    flex: 2;
+    margin: 0;
+    font-style: italic;
+    text-align: justify;
+    width:90%;
+    margin:30px auto;
+    display:flex;
+    align-items:center;
+    gap:30px;
+   
+    padding:40px;
+    
+    
+}
+button{
+    
+    margin-left: 45%;
+ color: #000;
+    text-decoration:none;
+    border:2px solid #0d0d0e;
+    padding:14px 28px;
+    transition:.3s;
+    font-weight:600;
+}
+
+.con1{
+    position:relative;
+    width:100%;
+    height:100vh;
+    background:url(jeremy-bishop-uAfZBP-GtiA-unsplash.jpg) center center/cover no-repeat;
+    display:flex;
+    flex-direction:column;
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    
+}
+.btn2{
+    width: 12%;
+    height: 8%;
+    margin-top: .5%;
+    color:white;
+    background-color: transparent;
+    border:2px solid #fff;
+}
+.btn2:hover{
+    background-color: #f59055;
+}
+.book{
+    padding: 17%;
+    font-style: italic;
+}
+.MAP1{
+    text-align:left;
+}
+.str1{
+    color: #f74747;
+    text-align: left ;
+}
+
+.contact-section{
+    width:85%;
+    margin:50px auto;
+}
+
+.top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:40px;
+}
+
+.top p,
+.social{
+    font-size:15px;
+    color:#333;
+}
+
+.social a{
+    text-decoration:none;
+    color:#333;
+}
+
+.content{
+    display:flex;
+    gap:20px;
+}
+
+.map{
+    flex:1;
+}
+
+.map img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.gallery{
+    flex:1;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+}
+
+.gallery img{
+    width:100%;
+    height:170px;
+    object-fit:cover;
+}
+
+
+.footer{
+    background-image:url("pexels-wuyihale-lin-363019872-14392043.jpg");
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    color:white;
+    padding:80px 20px;
+}
+
+.footer h2{
+    font-size:35px;
+}
+
+.footer p{
+    font-size:18px;
+}
+
+.footer input{
+    width:250px;
+    padding:10px;
+    border:none;
+}
+
+.footer button{
+    padding:10px 20px;
+    background:transparent;
+    color:white;
+    border:white solid;
+    cursor:pointer;
+}
+
+.footer button:hover{
+    background:darkgreen;
+}
+
+.footer a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+}
+
+.footer a:hover{
+    color:yellow;
+}
